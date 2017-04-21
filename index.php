@@ -21,13 +21,23 @@
 	//echo $usuario;
 
 	//INSERT
+	//$aluno = new Usuario("juju", "jaja"); 
+	//$aluno->insert();
+	//echo $aluno;
 
-	$aluno = new Usuario("juju", "jaja");
+	//UPDATE
+	//$usuario = new Usuario();
+	//$usuario->loadbyId(10);
+	//$usuario->update("boboca", "bobocao");
+	//echo $usuario;
+
+	//DELETE
+	$usuario = new Usuario();
 	
+	$usuario->loadbyId(11);
 
-	$aluno->insert();
+	$usuario->delete();
 
-	echo $aluno;
-
+	echo $usuario;
 
 ?>
